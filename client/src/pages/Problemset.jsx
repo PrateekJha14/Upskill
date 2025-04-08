@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import styles from './ProblemSet.module.css';
+import styles from './Problemset.module.css';
 import problemsData from '../db/ProblemsData';
 
 const fetchSolvedProblems = async (handle) => {
